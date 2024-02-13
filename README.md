@@ -1,8 +1,6 @@
 # Vereinsdokumente
 
-In diesem Repository leben die Vereinsdokumente. Um safe zu bleiben, ist es
-ein unsichtbares github repo. Außerdem sollen keine personenbezogenen Daten
-(Adressen, emailadressen, telefonnummern) ins Repo kommen.
+klonen mit `git clone --recurse-submodules` um auch das pandoc-template zu bekommen.
 
 Um die PDFs zu bauen, ist texlive-latex und pandoc erforderlich. Wenn diese
 installiert sind, können die PDFs mit ``make`` erzeugt werden.

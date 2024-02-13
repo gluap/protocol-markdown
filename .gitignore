@@ -1,0 +1,5 @@
+*/**.pdf
+pdf/**
+/venv/
+/Protokoll.log
+.idea/**
