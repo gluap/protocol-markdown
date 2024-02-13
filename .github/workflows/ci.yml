@@ -95,7 +95,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: ${{ env.OBS_VERSION }}
-        release_name: ${{ env.OBS_VERSION }}
+        name: ${{ env.OBS_VERSION }}
         files: ${{ env.OBS_OUTPUT_FILENAME }}
         body: |
           ![GitHub downloads](https://img.shields.io/github/downloads-pre/openbikesensor/OpenBikeSensorFirmware/${{ env.OBS_VERSION }}/total) ![GitHub commits since release](https://img.shields.io/github/commits-since/openbikesensor/OpenBikeSensorFirmware/${{ github.sha }}?label=commits%20since%20${{ env.OBS_VERSION }})
